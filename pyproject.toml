@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bot-personal-assistant"
+version = "0.1.0"
+description = "Bot for alerts and password storage written aiogram"
+authors = ["Konstantin Raikhert <raikhert13@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bot_personal_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+aiogram = {url = "https://github.com/aiogram/aiogram/archive/refs/heads/dev-3.x.zip"}
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
