@@ -9,8 +9,8 @@ packages = [{include = "bot_personal_assistant"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-python-dotenv = "^1.0.0"
 aiogram = {url = "https://github.com/aiogram/aiogram/archive/refs/heads/dev-3.x.zip"}
+environs = "^9.5.0"
 
 
 [tool.poetry.group.dev.dependencies]
