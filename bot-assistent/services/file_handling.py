@@ -1,7 +1,7 @@
 from math import ceil
 
 BOOK_PATH = "bot-assistent/book/book.txt"
-PAGE_SIZE = 1050
+PAGE_SIZE = 750
 
 
 book: dict[int, str] = {}
